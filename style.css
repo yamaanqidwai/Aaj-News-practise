@@ -1,3 +1,4 @@
+/* For Displaying text over Logo */
 .logo {
   position: relative;
   display: inline-block;
@@ -25,4 +26,20 @@
 
 .logo:hover .overlay-text {
   opacity: 1;
+}
+
+
+/* For aligning elements in masthead */
+
+
+div.mast-header {
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
+div.left-header > div {
+    display: inherit;
+    flex-flow: coloumn nowrap;
+    text-align: center;
 }
